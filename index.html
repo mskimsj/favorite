@@ -4,20 +4,30 @@
         <title>so_ojin</title>
         <!DOCTYPE html>
         <style>
-            nav {
+            #GNB {
                 height: 120px;
-                text-align: center;
+                float: left;
                 margin: auto;
-                background-color: bisques;
-                text-decoration:none;
             }
 
-            .nav ul li{
+            #GNB ul li{
+                list-style: none;
                 color: black;
                 text-decoration: none;
                 list-style: none;
                 float: left;
-                align-items: center;
+            }
+            #GNB .menu {
+                text-decoration: none;
+                display: block;
+                font-size: 16px;
+                font-weight: bold;
+                width: 56px;
+    
+            }
+            #GNB .menu:hover {
+                color: white;
+                background-color: black;
             }
 
             .main {
@@ -61,7 +71,7 @@
         </style>   
     </head>
     <body>
-        <nav>
+        <nav id="GNB">
             <ul>
                 <li>
                     <a class="menu" href="#">Home</a>
