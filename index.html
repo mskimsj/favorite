@@ -47,7 +47,7 @@
             #main {
                 width: 1024px;
                 height: 320px;
-                margin: 0 auto;
+                margin: 40px auto;
                 align-items: center;
             }
 
@@ -87,6 +87,10 @@
                 padding-left: 48px;
                 margin: 0px;
            }
+           /*
+           1. 카드 자체를 지칭하는 태그 #sub .sub01, ...들을 각 태그에 추가하여 각각 margin과 padding값 지정.
+           2. 카드 내의 글자 태그 정렬을 위해 위의 카드에 padding값을 먼저 지정해준 후, 해당 <p>태그는 margin-left만을 지정함.
+           -> p태그 자체에 상하 margin값 혹은 padding값을 줄 경우에 부모에 해당하는 <article>태그의 크기가 바뀌어 버리는 이슈가 있음.  */
         </style>   
     </head>
     <body>
