@@ -35,12 +35,13 @@
                 background-color: black;
             }
             #header {height: 312px; width: 1024px; margin:24px auto; padding: 72px auto;}
+            #header .header-contents {vertical-align: middle;}
             header h2 {font-family: IBM Plex Sans; font-style: normal;
             font-weight: bold; font-size: 40px; line-height: 52px; text-align: center;
             text-decoration-line: underline;}
             header p{font-family: IBM Plex Sans; font-style: normal;
             font-weight: normal; font-size: 20px; line-height: 26px; text-align: center;}
-           
+
             #music {
                display: flex;
                align-items: center;
@@ -107,8 +108,8 @@
         <!--header: 메인영역이 생기면서 추가한 코드입니다-->
         <header>
             <section id="header">
-                <h2>Favorite<br>Music, Movie, Book</h2>
-                <p>2020.01.01 ~</p>
+                <h2 class="header-contents">Favorite<br>Music, Movie, Book</h2>
+                <p class="header-contents">2020.01.01 ~</p>
             </section>
         </header>
         <section id="music">
