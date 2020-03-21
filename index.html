@@ -42,13 +42,14 @@
             header p{font-family: IBM Plex Sans; font-style: normal;
             font-weight: normal; font-size: 20px; line-height: 26px; text-align: center;}
 
-            #music {
+            #container-music {
                display: flex;
                align-items: center;
                width: 1024px;
                margin-top: 40px;
                margin: 0 auto;
            }
+           .header-music h1{display: inline;}
            .music-1, .music-2, .music-3{
                 width: 320px;
                 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
@@ -113,9 +114,12 @@
                 <p>2020.01.01 ~</p></div>
             </section>
         </header>
-        <section id="music">
-            <p>Music</p>
-            <a id="more" href="#">show all</a>
+        <section id="container-music">
+            <header class="header-music">
+                <h1>Music</h1>
+                <a class="show-all" href="#">show all</a>
+            </header>
+            <div class="music">
             <a href="#"><article class="music-1">
             <p>Lauv-Changes</p>
             </article></a>
@@ -125,6 +129,7 @@
             <a href="#"><article class="music-3">
             <p>Quinn XCII-Stacy</p>
             </article></a>
+            </div>
         </section>
          
     </body>
