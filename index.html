@@ -64,30 +64,30 @@
                 padding-left: 32px;
                 margin: 0px;}
 
-           #sub {
+           #container-movie { width: 1024px;margin-top: 48px; margin: 48px auto; align-items: center;}
+           #container-movie .header-movie {margin-bottom: 36px;}
+           #container-movie .header-movie h1{display: inline;}
+           #container-movie .header-movie p{font-family: IBM Plex Mono; font-style: normal;
+            font-weight: bold; font-size: 14px;line-height: 18px;text-align: right;color: #EC7100;text-decoration: none;}
+           .movie-1, .movie-2, .movie-3{ width: 320px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+                background: #ffffff; border-radius: 6px; text-align: left;
+                font-family: IBM Plex Sans; font-style: normal; font-weight: bold;
+                font-size: 18px;line-height: 23px; text-decoration: none;}
+           #container-movie div.movie{
                display: flex;
                align-items: center;
                width: 1024px;
-               margin-top: 40px;
                margin: 0 auto;
            }
-           .sub01, .sub02, .sub03{
-                width: 320px;
-                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
-                background: #ffffff;
-                border-radius: 6px;
-                text-align: left;
-                font-size: 20px;
-                font-weight: bold;
-           }
-           #sub .sub01 {margin-right: 32px; padding-top: 193px; padding-bottom: 24px;}
-           #sub .sub02 {margin: 0px; padding-top: 193px; padding-bottom: 24px;}
-           #sub .sub03 {margin-left: 32px;padding-top: 193x; padding-bottom: 24px;}
+           #container-movie div.movie .movie-1 {margin-right: 32px; padding-top: 193; padding-bottom: 24px;}
+           #container-movie div.movie .movie-2 {margin: 0px; padding-top: 193px; padding-bottom: 24px;}
+           #container-movie div.movie .movie-3 {margin-left: 32px;padding-top: 193px; padding-bottom: 24px;}
 
-           .sub01 p, .sub02 p, .sub03 p{
+           .movie-1 p, .movie-2 p, .movie-3 p{
                 padding-left: 32px;
-                margin: 0px;
-           }
+                margin: 0px;}
+
+           
            /*
            1. 카드 자체를 지칭하는 태그 #sub .sub01, ...들을 각 태그에 추가하여 각각 margin과 padding값 지정.
            2. 카드 내의 글자 태그 정렬을 위해 위의 카드에 padding값을 먼저 지정해준 후, 해당 <p>태그는 margin-left만을 지정함.
