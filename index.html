@@ -87,6 +87,28 @@
                 padding-left: 32px;
                 margin: 0px;}
 
+           #container-book { width: 1024px; margin: 48px auto; padding-top: 24px; align-items: center;}
+           #container-book .header-book {margin-bottom: 36px;}
+           #container-book .header-book h1{display: inline;}
+           #container-book .header-book p{font-family: IBM Plex Mono; font-style: normal; padding-left: 897px;
+            font-weight: bold; font-size: 14px;line-height: 18px;text-align: right;color: #EC7100;text-decoration: none;}
+           .book-1, .book-2, .book-3{ width: 320px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+                background: #ffffff; border-radius: 6px; text-align: left;
+                font-family: IBM Plex Sans; font-style: normal; font-weight: bold;
+                font-size: 18px;line-height: 23px; text-decoration: none;}
+           #container-book div.book{
+               display: flex;
+               align-items: center;
+               width: 1024px;
+               margin: 0 auto;
+           }
+           #container-book div.book .book-1 {margin-right: 32px; padding-top: 193; padding-bottom: 24px;}
+           #container-book div.book .book-2 {margin: 0px; padding-top: 193px; padding-bottom: 24px;}
+           #container-book div.book .book-3 {margin-left: 32px;padding-top: 193px; padding-bottom: 24px;}
+
+           .book-1 p, .book-2 p, .book-3 p{
+                padding-left: 32px;
+                margin: 0px;}
            
            /*
            1. 카드 자체를 지칭하는 태그 #sub .sub01, ...들을 각 태그에 추가하여 각각 margin과 padding값 지정.
@@ -142,6 +164,23 @@
             </article></a>
             <a href="#"><article class="movie-3">
             <p>The Great Gatsby</p>
+            </article></a>
+            </div>
+        </section>
+        <section id="container-book">
+            <header class="header-book">
+                <h1>Book</h1>
+                <a class="show-all" href="#">show all</a>
+            </header>
+            <div class="book">
+            <a href="#"><article class="book-1">
+            <p>인스타그램에는 절망이 없다</p>
+            </article></a>
+            <a href="#"><article class="book-2">
+            <p>나만의 공간을 만드는 창업가이드</p>
+            </article></a>
+            <a href="#"><article class="movie-3">
+            <p>메이크 타임</p>
             </article></a>
             </div>
         </section>
